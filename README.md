@@ -26,7 +26,7 @@
 
 3.安装成功后请自行更改三码
 
-4.这个是我自用的引导文件，比较完善一点，
+4.这个是我自用的引导文件，比较完善一点，会优先更新
 
 #### 三、更新内容
 
@@ -36,9 +36,8 @@
 
 2.更新全部KEXT驱动为最新
 
-3.注入显卡，提升性能
+3.注入显卡RX580，提升性能
 
-4.
 
 
 #### 四、系统截图
@@ -51,14 +50,6 @@
 
 ![](https://qdall01.baidupcs.com/file/dbf7fb5fcv32e2509893a050a27c341c?bkt=en-0f64e6ca9b24f0bc635de155f7cc46a1c3fad4f5815ae043df25731a469eab5ce9508a70ff779147d0571485c593c70f3dbd2336dc8d8ca931fa4eb7d8dfe1ae&fid=414463553-250528-450026396252045&time=1599235927&sign=FDTAXUGERLQlBHSKfW-DCb740ccc5511e5e8fedcff06b081203-IJHBf6TB%2B5EWOkWS0RoC6LPgPMg%3D&to=92&size=69018&sta_dx=69018&sta_cs=0&sta_ft=jpg&sta_ct=0&sta_mt=0&fm2=MH%2CXian%2CAnywhere%2C%2Cjiangsu%2Ccmnet&ctime=1599228060&mtime=1599228060&resv0=-1&resv1=0&resv2=rlim&resv3=5&resv4=69018&vuk=414463553&iv=-2&htype=&randtype=&newver=1&newfm=1&secfm=1&flow_ver=3&pkey=en-d2b8447b652ee24359fda5b7f365b9e1c26ac2460802c38209a0b5919f50bc1b5d967d030c8bcf47e995ac888147cbc95107e74c58e557c4305a5e1275657320&sl=81002574&expires=8h&rt=pr&r=262156889&vbdid=3792876375&fin=1599227534660.jpg&fn=1599227534660.jpg&rtype=1&dp-logid=5752015230102991374&dp-callid=0.1&hps=1&tsl=11&csl=58&fsl=-1&csign=ls%2FEEWYp8Pt9LKajDfuiglqWobw%3D&so=0&ut=8&uter=4&serv=0&uc=134589567&ti=0887d9faa0e99264d0184971c0cd810b97b02292cd42f504305a5e1275657320&hflag=30&adg=c_06d7cc2bf4fc7c5b9ca320df6d532e55&reqlabel=250528_f_47a0a04c20a7697413b45a7eeae444b7_-1_4613b9798bb552a0b3fbe8de2d66e1dc&by=themis)
 
-
-#### 五、其它
-
-1.网卡内建：打开Hackintool，点击PCIe找到自己对应网卡，然后复制Device path，然后填写到OC配置文件config.plist的DeviceProperties-Add第二个里面
-
-2.声卡注入：打开Hackintool，点击PCIe找到自己对应网卡，然后复制Device path，然后填写到OC配置文件config.plist的DeviceProperties-Add第一个里面
-
-3.USB定制：打开Hackintool,点击USB选项，点击下面扫帚按钮，然后再点击刷新按钮，分别用usb2.0和3.0插入每一个端口，2.0端口选择2.0；3.0端口保留两个，一个选择2.0一个3.0；键盘、鼠标、蓝牙、音箱等选择内建，所有端口保留15个以内，完成后点击导出按钮，把生成的usnports.kext加载到OC配置文件config.plist的Kernel-Add里面（红色口usb3.1可以不定制，只要设备不插在3.1口里就可以正常睡眠）
 
 
 
